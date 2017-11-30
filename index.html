@@ -34,21 +34,22 @@
 
     <div id="form">
       <div id="form-input">
-        <input type="text" name="formname" placeholder="Your departure stop">
+        <input type="text" id="dept" name="dept" placeholder="Your departure stop">
       </div>
       <div id="form-input">
-        <input type="text" name="formname" placeholder="Your destination">
+        <input type="text" id="dest" name="dest" placeholder="Your destination">
       </div>
       <br>
-      <button type="submit" class="btn btn-search">Search</button>
+      <button id="search" onClick="searchFunc()" class="btn btn-search">Search</button>
     </div>
-
-    <h2 class="route text-center"></h2>
-
   </div>
 
-  <script>
-    require('./renderer.js')
-  </script>
+  <br><br>
+  
+  <div class="container2">
+    <h2>Transportation:&nbsp;</h2><h2 class="route text-center" id="route"></h2>
+  </div>
+
+  <script src="renderer.js"></script>
 </body>
 </html>
