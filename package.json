@@ -1,7 +1,7 @@
 {
   "name": "plgui",
   "version": "0.0.1",
-  "description": "",
+  "description": "Standalone GUI application for Graz public transport search",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
